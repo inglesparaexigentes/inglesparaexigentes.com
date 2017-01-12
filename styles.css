@@ -1,0 +1,60 @@
+
+
+/*font-family: 'Merienda One', cursive;
+font-family: 'Dosis', sans-serif;*/
+
+html {
+  font-size: 1em;
+}
+@media (min-width: 25em) { /* 400px */
+  html {
+    font-size: calc(1em + (1.25 - 1) * (100vw - 25em) / (62.5 - 25));
+  }
+}
+@media (min-width: 62.5em) { /* 1000px */
+  html {
+    font-size: calc(1.25em + (1.5 - 1.25) * (100vw - 62.5) / (100 - 62.5));
+  }
+}
+@media (min-width: 100em) { /* 1600px */
+  html {
+    font-size: 1.5em;
+  }
+}
+
+p {
+  margin: 0;
+}
+.header {
+  background-color: #62A9BE;
+  /*font-family: 'Merienda One', cursive;*/
+  color: lavender;
+  /*font-size: 1.3rem;*/
+}
+@media (min-width: 25em) { /* 400px */
+  .header {
+    font-size: calc(1em + (3 - 1) * (100vw - 25em) / (62.5 - 25));
+  }
+}
+@media (min-width: 62.5em) { /* 1000px */
+  .header {
+    font-size: calc(3em + (6 - 3) * (100vw - 62.5) / (100 - 62.5));
+  }
+}
+@media (min-width: 100em) { /* 1600px */
+  .header {
+    font-size: 6em;
+  }
+}
+/*@media (min-width: 1200px) {
+    .header {
+    font-size: 4rem;
+  }
+}*/
+
+/*.box1 {
+  height: 30rem;
+  background-image: linear-gradient(to bottom,
+    #62A9BE, #74A2BF, #7291B3, #6E7AA3);
+}
+*/
