@@ -21,7 +21,7 @@ html {
 }
 body {
   background: #F2F3F4;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
 }
 
 .size-h1 {
@@ -40,11 +40,11 @@ body {
 }
 
 .size-h2 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
 }
 @media (min-width: 25em) { /* 400px */
   .size-h2 {
-    font-size: calc(1.7em + (2 - 1.7) * (100vw - 25em) / (100 - 25));
+    font-size: calc(1.2em + (2 - 1.2) * (100vw - 25em) / (100 - 25));
 
   }
 }
@@ -58,6 +58,13 @@ body {
 
 .centered {
   text-align: center;
+}
+.suscribe {
+  background: #AFBFD5;
+  border: none;
+  font-family: 'Merienda One', cursive;
+  padding: 0.5rem;
+  border-radius: 10% / 50%;
 }
 
 /*Styling container and element*/
@@ -81,6 +88,7 @@ body {
     #6E7AA3);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .header .proyect-name {
   font-family: 'Merienda One', cursive;
@@ -88,7 +96,6 @@ body {
   text-shadow: 2px 1px 1px #9A9B9D;
 }
 .header .inscribe {
-  border-radius: 10px / 10px;
   border: 2px solid #7291B3;
   background: transparent;
   font-family: 'Merienda One', cursive;
@@ -124,14 +131,9 @@ body {
   background: rgba(114, 145, 179, 0.5);
   font-family: 'Merienda One', cursive;
 }
-.main-division1.content-container {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-  padding: 3rem;
-}
 .main-division div:last-child {
-  margin-top: 3rem;
-}
+  margin-top: 2rem;
+}s
 
 /*Styling main-division2*/
 
@@ -141,16 +143,12 @@ body {
 .main-division2 form {
   display: flex;
   flex-direction: column;
-  max-width: 25%;
   margin: auto;
-}
-.main-division2 .get-it {
-  font-weight: 900;
 }
 .main-division2 button {
   background: #AFBFD5;
   border: none;
-   font-family: 'Merienda One', cursive;
+  font-family: 'Merienda One', cursive;
 }
 
 
