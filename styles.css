@@ -71,11 +71,13 @@ body {
 /*Styling container and element*/
 
 .grid-container, 
-.grid-element {
+.grid-element,
+.grid-content {
  padding: 0.5rem;
 }
 .content-container, 
-.content-element {
+.content-element,
+.content-content {
  padding: 0.5rem;
 }
 
@@ -152,15 +154,12 @@ body {
   background: #ECEDF7;
 }
 .main-division2 form {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
+  text-align: center;
 }
-.main-division2 button {
-  background: #AFBFD5;
-  border: none;
-  font-family: 'Merienda One', cursive;
+.main-division2 input {
+  outline: none;
 }
+
 
 
 
