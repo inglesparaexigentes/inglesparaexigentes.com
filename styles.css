@@ -73,9 +73,14 @@ body {
   color: lavender;
   border-radius: 10% / 50%;
 }
-ul li,
-ol li {
-  text-indent: 2rem;
+/*.list-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}*/
+ul li {
+  list-style: none;
 }
 
 /*Styling container and element*/
@@ -121,6 +126,16 @@ ol li {
   margin-right: auto;
   margin-left: auto;
   /*margin-bottom: 1rem;*/
+}
+.main-division ul,
+.main-division ol {
+  max-width: 25em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-division li,
+.main-division ol {
+  margin-bottom: 0.5rem;
 }
 
 /*Styling main-division1*/
@@ -179,14 +194,59 @@ ol li {
 
 /*Styling main-division4*/
 
-.main-division4 ul li{
-  list-style: circle;
+.main-division4 ul li:before {
+  content: "● ";
 }
 
+/*Styling main-division5*/
 
+.main-division5 {
+  background-image: url(images/magic.jpg);
+  background-size: cover;
+  color: lavender;
+  text-shadow: 2px 2px 1px #333536;
 
+}
+.main-division5 .size-h2 {
+   font-family: 'Merienda One', cursive;
+}
+.main-division5 ul li:before {
+  content: "→ ";
+}
 
+/*Styling main-division6*/
 
+.main-division6 {
+  background: #ECEDF7;
+}
+.main-division6 p:first-child {
+  font-family: 'Merienda One', cursive;
+}
+
+/*Styling main-division7*/
+
+.main-division7 {
+  background-image: linear-gradient(
+    #62A9BE,
+    #74A2BF,
+    #7291B3,
+    #6E7AA3);
+  color: lavender;
+  text-shadow: 2px 2px 1px #333536;
+}
+.main-division7 button {
+  display: block;
+  margin: auto;
+}
+
+/*Styling main-division8*/
+
+.main-division8 .size-h2 {
+  font-family: 'Merienda One', cursive;
+}
+.main-division8 ul li:before {
+  content: "□ "
+}
 
 
 
