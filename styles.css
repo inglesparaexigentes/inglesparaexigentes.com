@@ -142,12 +142,16 @@ ul li {
 
 .main-division1 {
   background-image: url(images/libros.jpg);
+  /*background-color: rgba(98, 169, 190, 0.5);*/
   background-size: cover;
   background-position: bottom;
   background-origin: border-box;
   text-align: center;
   color: lavender;
   text-shadow: 2px 2px 1px #333536;
+}
+.main-division1:before {
+   background-color: rgba(254, 0, 0, 0.5);
 }
 .main-division1 .size-h1 {
   font-family: 'Merienda One', cursive;
