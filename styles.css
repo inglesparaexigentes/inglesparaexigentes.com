@@ -73,12 +73,6 @@ body {
   color: lavender;
   border-radius: 10% / 50%;
 }
-/*.list-style {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}*/
 ul li {
   list-style: none;
 }
@@ -125,7 +119,6 @@ ul li {
   max-width: 30em;
   margin-right: auto;
   margin-left: auto;
-  /*margin-bottom: 1rem;*/
 }
 .main-division ul,
 .main-division ol {
@@ -142,16 +135,12 @@ ul li {
 
 .main-division1 {
   background-image: url(images/libros.jpg);
-  /*background-color: rgba(98, 169, 190, 0.5);*/
   background-size: cover;
   background-position: bottom;
   background-origin: border-box;
   text-align: center;
   color: lavender;
   text-shadow: 2px 2px 1px #333536;
-}
-.main-division1:before {
-   background-color: rgba(254, 0, 0, 0.5);
 }
 .main-division1 .size-h1 {
   font-family: 'Merienda One', cursive;
@@ -162,9 +151,9 @@ ul li {
 }
 @media (min-width: 25rem) {
   .main-division1.content-container {
-  padding-top: calc(2em + (2 - 1) * (100vw - 25em) / (100 - 25));
-  padding-bottom: calc(2em + (3 - 2) * (100vw - 25em) / (100 - 25));
-}
+    padding-top: calc(2em + (2 - 1) * (100vw - 25em) / (100 - 25));
+    padding-bottom: calc(2em + (3 - 2) * (100vw - 25em) / (100 - 25));
+  }
 
 }
 .main-division1 div:last-child {
@@ -221,7 +210,7 @@ ul li {
 
 }
 .main-division5 .size-h2 {
-   font-family: 'Merienda One', cursive;
+ font-family: 'Merienda One', cursive;
 }
 .main-division5 ul li:before {
   content: "→ ";
@@ -235,7 +224,7 @@ ul li {
 .main-division6 p:first-child {
   font-family: 'Merienda One', cursive;
 }
- 
+
 
 /*Styling main-division7*/
 
@@ -272,15 +261,15 @@ ul li {
 /*Styling footer*/
 
 .footer {
-   background-image: linear-gradient(
-    #62A9BE,
-    #74A2BF,
-    #7291B3,
-    #6E7AA3);
-  display: flex;
-  justify-content: space-around;
-  color: lavender;
-  text-shadow: 2px 2px 1px #333536;
+ background-image: linear-gradient(
+  #62A9BE,
+  #74A2BF,
+  #7291B3,
+  #6E7AA3);
+ display: flex;
+ justify-content: space-around;
+ color: lavender;
+ text-shadow: 2px 2px 1px #333536;
 }
 
 
