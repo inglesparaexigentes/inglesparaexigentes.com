@@ -1,0 +1,159 @@
+Colors
+
+BLUE
+body {
+  background: #F2F3F4;
+  line-height: 1.5;
+}
+.suscribe {
+  background: #AFBFD5;
+  border: none;
+  font-family: 'Merienda One', cursive;
+  border-radius: 10% / 50%;
+  color: #333536;
+}
+.inscribe {
+  border: 2px solid #7291B3;
+  background: transparent;
+  font-family: 'Merienda One', cursive;
+  color: lavender;
+  border-radius: 10% / 50%;
+}
+.header {
+  background-image: linear-gradient(
+    #62A9BE,
+    #74A2BF,
+    #7291B3,
+    #6E7AA3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .proyect-name {
+  font-family: 'Merienda One', cursive;
+  color: lavender;
+  text-shadow: 2px 1px 1px #6E7AA3;
+}
+.main-division1 {
+  background-image: url(images/libros.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-origin: border-box;
+  text-align: center;
+  color: lavender;
+  text-shadow: 2px 2px 1px #333536;
+}
+.main-division2 {
+  background: #ECEDF7;
+}
+.main-division3  .main-division-text {
+  background-image: linear-gradient(
+    #62A9BE,
+    #74A2BF,
+    #7291B3,
+    #6E7AA3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: lavender;
+}
+.main-division3 .countdown .number {
+  border-radius: 50% / 50%;
+  border: 4px solid #62A9BE;
+}
+.main-division5 {
+  background-image: url(images/magic.jpg);
+  background-size: cover;
+  color: lavender;
+  text-shadow: 2px 2px 1px #333536;
+
+}
+.main-division6 {
+  background: #ECEDF7;
+}
+.main-division7 {
+  background-image: linear-gradient(
+    #62A9BE,
+    #74A2BF,
+    #7291B3,
+    #6E7AA3);
+  color: lavender;
+  text-shadow: 2px 2px 1px #333536;
+}
+.footer {
+ background-image: linear-gradient(
+  #62A9BE,
+  #74A2BF,
+  #7291B3,
+  #6E7AA3);
+ display: flex;
+ justify-content: space-around;
+ color: lavender;
+ text-shadow: 2px 2px 1px #333536;
+}
+
+ORANGE HEADER
+
+.inscribe {
+  border: 2px solid #feb47b;
+  background: transparent;
+  font-family: 'Merienda One', cursive;
+  color: lavender;
+  border-radius: 10% / 50%;
+}
+.header {
+  background-image: linear-gradient(
+   #ff7e5f,
+   #feb47b);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+PURPLE HEADER 
+.inscribe {
+  border: 2px solid #6E48AA;
+  background: transparent;
+  font-family: 'Merienda One', cursive;
+  color: lavender;
+  border-radius: 10% / 50%;
+}
+.header {
+  background-image: linear-gradient(
+   #9D50BB,
+   #6E48AA);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ORANGE
+
+
+
+
+#C02425
+#F0CB35
+
+
+#FFB75E
+#ED8F03
+
+#e53935
+#e35d5b
+
+#FF512F
+#F09819
+
+
+
+
+
+
+
+
+
+
+
+
+

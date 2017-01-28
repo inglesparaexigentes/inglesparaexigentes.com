@@ -134,13 +134,13 @@ ul li {
 /*Styling main-division1*/
 
 .main-division1 {
-  background-image: url(images/libros.jpg);
+  background: #CFDAE7;
   background-size: cover;
   background-position: bottom;
   background-origin: border-box;
   text-align: center;
-  color: lavender;
-  text-shadow: 2px 2px 1px #333536;
+  color: #415380;
+  /*text-shadow: 2px 2px 1px #333536;*/
 }
 .main-division1 .size-h1 {
   font-family: 'Merienda One', cursive;
@@ -203,10 +203,10 @@ ul li {
 /*Styling main-division5*/
 
 .main-division5 {
-  background-image: url(images/magic.jpg);
+  background: #CFDAE7;
   background-size: cover;
-  color: lavender;
-  text-shadow: 2px 2px 1px #333536;
+  color: #415380;
+  /*text-shadow: 2px 2px 1px #333536;*/
 
 }
 .main-division5 .size-h2 {
