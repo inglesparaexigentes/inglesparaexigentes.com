@@ -135,9 +135,9 @@ ul li {
 
 .main-division1 {
   background: #CFDAE7;
-  background-size: cover;
+ /* background-size: cover;
   background-position: bottom;
-  background-origin: border-box;
+  background-origin: border-box;*/
   text-align: center;
   color: #415380;
   /*text-shadow: 2px 2px 1px #333536;*/
@@ -156,21 +156,24 @@ ul li {
   }
 
 }
-.main-division1 div:last-child {
-  margin-top: 2rem;
+.main-division1 form {
+  display: flex;
+  justify-content: center;
+}
+.main-division1 input {
+  outline: none;
+  border: none;
+}
+/*.main-division1 input:hover {
+  box-shadow: 0 0 4px 4px white;
+}*/
+.main-division1 p,
+.main-division1 .size-h2 {
+  color: #333536;
 }
 
 /*Styling main-division2*/
 
-.main-division2 {
-  background: #ECEDF7;
-}
-.main-division2 form {
-  text-align: center;
-}
-.main-division2 input {
-  outline: none;
-}
 
 /*Styling main-division3*/
 
