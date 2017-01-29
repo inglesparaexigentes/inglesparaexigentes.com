@@ -193,6 +193,7 @@ a:hover {
 .main-division1 form {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .main-division1 input {
   outline: none;
