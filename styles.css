@@ -69,15 +69,19 @@ body {
 .suscribe:hover {
   box-shadow: 0 0 4px 4px #AFBFD5;
 }
-.inscribe {
-  border: 2px solid #7291B3;
-  background: transparent;
-  font-family: 'Merienda One', cursive;
-  color: lavender;
-  border-radius: 10% / 50%;
-}
+
 ul li {
   list-style: none;
+}
+a:link {
+  text-decoration: none;
+  color: lavender;
+}
+a:visited {
+  color: lavender;
+}
+a:hover {
+  color: #DCDEDF;
 }
 
 /*Styling container and element*/
@@ -103,13 +107,27 @@ ul li {
     #6E7AA3);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-.header .proyect-name {
-  font-family: 'Merienda One', cursive;
+  flex-wrap: wrap;
+  align-items: baseline;
   color: lavender;
   text-shadow: 2px 1px 1px #6E7AA3;
+  font-family: 'Merienda One', cursive;
 }
+.information-link {
+  display: flex;
+  align-items: baseline;
+}
+.information-link>div:first-child {
+  margin-right: 0.5rem;
+}
+@media (min-width: 61.5rem) {
+  .information-link>div:first-child {
+    margin-right: calc(2rem + (2 - 0.5) * (100vw - 61.5rem) / (100 - 61.5));
+
+  }
+
+}
+
 
 /*Styling main division*/
 
@@ -273,7 +291,7 @@ ul li {
   #7291B3,
   #6E7AA3);
  display: flex;
- justify-content: space-around;
+ justify-content: flex-end;
  color: lavender;
  text-shadow: 2px 2px 1px #333536;
 }
