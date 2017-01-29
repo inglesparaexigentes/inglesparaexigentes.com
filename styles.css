@@ -147,8 +147,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
 }
-.main-division li,
-.main-division ol {
+.main-division li {
   margin-bottom: 0.5rem;
 }
 
@@ -271,7 +270,7 @@ a:hover {
 .main-division8 .size-h2 {
   font-family: 'Merienda One', cursive;
 }
-.main-division8 ul li:before {
+.main-division8 .bullet-list li:before {
   content: "□ "
 }
 
