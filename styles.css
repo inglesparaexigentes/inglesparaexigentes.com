@@ -90,11 +90,16 @@ a:hover {
 .grid-element,
 .grid-content {
  padding: 0.5rem;
-}
-.content-container, 
+} 
 .content-element,
 .content-content {
  padding: 0.5rem;
+}
+.content-container {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /*Styling the header*/
@@ -123,11 +128,9 @@ a:hover {
 @media (min-width: 61.5rem) {
   .information-link>div:first-child {
     margin-right: calc(2rem + (2 - 0.5) * (100vw - 61.5rem) / (100 - 61.5));
-
   }
 
 }
-
 
 /*Styling main division*/
 
@@ -153,7 +156,7 @@ a:hover {
 .main-division li {
   margin-bottom: 0.5rem;
 }
-@media (min-width: 39rem) {
+@media (min-width: 32.75rem) {
   .main-division ul,
   .main-division ol {
   max-width: 25em;
