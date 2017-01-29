@@ -141,14 +141,25 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
 }
+.main-division .size-h1,
+.main-division .size-h2 {
+  max-width: 24em;
+}
 .main-division ul,
 .main-division ol {
   max-width: 25em;
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 2rem;
 }
 .main-division li {
   margin-bottom: 0.5rem;
+}
+@media (min-width: 39rem) {
+  .main-division ul,
+  .main-division ol {
+  max-width: 25em;
+  margin-right: auto;
+  margin-left: auto;
+ }
 }
 
 /*Styling main-division1*/
@@ -161,6 +172,9 @@ a:hover {
   text-align: center;
   color: #415380;
   /*text-shadow: 2px 2px 1px #333536;*/
+}
+.main-division1>div {
+  margin: auto;
 }
 .main-division1 .size-h1 {
   font-family: 'Merienda One', cursive;
@@ -259,6 +273,7 @@ a:hover {
     #6E7AA3);
   color: lavender;
   text-shadow: 2px 2px 1px #333536;
+  font-family: 'Merienda One', cursive;
 }
 .main-division7 button {
   display: block;
