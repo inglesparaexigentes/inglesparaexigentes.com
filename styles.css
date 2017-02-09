@@ -22,6 +22,8 @@ html {
 body {
   background: #F2F3F4;
   line-height: 1.5;
+  max-width: 1800px;
+  margin: auto;
 }
 
 .size-h1 {
@@ -174,8 +176,9 @@ button.content-content {
 .main-division1 {
   background-image: url("images/libros.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   background-origin: border-box;
+  background-clip: border-box;
   text-align: center;
   color: lavender;
   text-shadow: 2px 2px 1px #333536;
@@ -200,11 +203,15 @@ button.content-content {
 .main-division1 form {
   display: flex;
   justify-content: center;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 .main-division1 input {
   outline: none;
   border: none;
+  width: 20rem;
+  text-align: center;
+  max-width: 100%;
 }
 .main-division1 input:hover {
   box-shadow: 0 0 4px 4px white;
