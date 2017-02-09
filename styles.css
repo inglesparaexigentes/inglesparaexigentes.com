@@ -69,6 +69,7 @@ body {
   font-family: 'Merienda One', cursive;
   border-radius: 10% / 50%;
   color: #333536;
+  cursor: pointer;
 }
 .suscribe:hover {
   box-shadow: 0 0 4px 4px #AFBFD5;
