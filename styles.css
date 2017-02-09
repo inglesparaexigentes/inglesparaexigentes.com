@@ -95,6 +95,9 @@ a:hover {
 .content-content {
  padding: 0.5rem;
 }
+button.content-content {
+  padding: 0.7rem;
+}
 .content-container {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
@@ -147,6 +150,7 @@ a:hover {
 .main-division .size-h1,
 .main-division .size-h2 {
   max-width: 24em;
+  text-align: center;
 }
 .main-division ul,
 .main-division ol {
@@ -168,13 +172,13 @@ a:hover {
 /*Styling main-division1*/
 
 .main-division1 {
-  background: #CFDAE7;
- /* background-size: cover;
+  background-image: url("images/libros.jpg");
+  background-size: cover;
   background-position: bottom;
-  background-origin: border-box;*/
+  background-origin: border-box;
   text-align: center;
-  color: #415380;
-  /*text-shadow: 2px 2px 1px #333536;*/
+  color: lavender;
+  text-shadow: 2px 2px 1px #333536;
 }
 .main-division1>div {
   margin: auto;
@@ -205,10 +209,10 @@ a:hover {
 .main-division1 input:hover {
   box-shadow: 0 0 4px 4px white;
 }
-.main-division1 p,
+/*.main-division1 p,
 .main-division1 .size-h2 {
   color: #333536;
-}
+}*/
 
 /*Styling main-division2*/
 
@@ -244,10 +248,10 @@ a:hover {
 /*Styling main-division5*/
 
 .main-division5 {
-  background: #CFDAE7;
+  background-image: url("images/magic.jpg");
   background-size: cover;
-  color: #415380;
-  /*text-shadow: 2px 2px 1px #333536;*/
+  color: lavender;
+  text-shadow: 2px 2px 1px #333536;
 
 }
 .main-division5 .size-h2 {
