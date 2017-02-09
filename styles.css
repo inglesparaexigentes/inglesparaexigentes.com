@@ -22,7 +22,9 @@ html {
 body {
   background: #F2F3F4;
   line-height: 1.5;
-  max-width: 1800px;
+}
+.canvas {
+  max-width: 1599px;
   margin: auto;
 }
 
@@ -132,7 +134,13 @@ button.content-content {
 }
 @media (min-width: 61.5em) {
   .information-link>div:first-child {
-    margin-right: calc(2rem + (2 - 0.5) * (100vw - 61.5em) / (100 - 61.5));
+    margin-right: calc(0.5rem + (2 - 0.5) * (100vw - 61.5em) / (100 - 61.5));
+  }
+
+}
+@media (min-width: 100em) {
+  .information-link>div:first-child {
+    margin-right: 2rem;
   }
 
 }
