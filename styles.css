@@ -188,7 +188,7 @@ button.content-content {
 /*Styling main-division1*/
 
 .main-division1 {
-  background-image: url("images/libros.jpg");
+  background-image: url("images/libros-web1.jpg");
   background-size: cover;
   background-position: top;
   background-origin: border-box;
@@ -258,7 +258,7 @@ button.content-content {
 /*Styling main-division5*/
 
 .main-division5 {
-  background-image: url("images/magic.jpg");
+  background-image: url("images/magic-web1.jpg");
   background-size: cover;
   color: lavender;
   text-shadow: 2px 2px 1px #333536;
