@@ -66,7 +66,7 @@ body {
 .suscribe {
   background: #AFBFD5;
   border: none;
-  font-family: 'Merienda One', cursive;
+  font-family: 'Sansita', sans-serif;
   border-radius: 10% / 50%;
   color: #333536;
   cursor: pointer;
@@ -119,12 +119,17 @@ button.content-content {
     #7291B3,
     #6E7AA3);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: baseline;
   color: lavender;
   text-shadow: 2px 1px 1px #6E7AA3;
-  font-family: 'Merienda One', cursive;
+  font-family: 'Sansita', sans-serif;
+}
+@media (min-width: 40.75em) {
+  .header {
+    justify-content: space-between;
+  }
 }
 .information-link {
   display: flex;
@@ -196,7 +201,7 @@ button.content-content {
   margin: auto;
 }
 .main-division1 .size-h1 {
-  font-family: 'Merienda One', cursive;
+  font-family: 'Sansita', sans-serif;
 }
 .main-division1 form {
   display: flex;
@@ -237,7 +242,7 @@ button.content-content {
 }
 .main-division3 .countdown {
   display: flex;
-  font-family: 'Merienda One', cursive;
+  font-family: 'Sansita', sans-serif;
 }
 .main-division3 .countdown .number {
   border-radius: 50% / 50%;
@@ -260,7 +265,7 @@ button.content-content {
 
 }
 .main-division5 .size-h2 {
- font-family: 'Merienda One', cursive;
+ font-family: 'Sansita', sans-serif;
 }
 .main-division5 ul li:before {
   content: "→ ";
@@ -272,7 +277,7 @@ button.content-content {
   background: #ECEDF7;
 }
 .main-division6 p:first-child {
-  font-family: 'Merienda One', cursive;
+  font-family: 'Sansita', sans-serif;
 }
 
 
@@ -286,7 +291,7 @@ button.content-content {
     #6E7AA3);
   color: lavender;
   text-shadow: 2px 2px 1px #333536;
-  font-family: 'Merienda One', cursive;
+  font-family: 'Sansita', sans-serif;
 }
 .main-division7 button {
   display: block;
@@ -296,7 +301,7 @@ button.content-content {
 /*Styling main-division8*/
 
 .main-division8 .size-h2 {
-  font-family: 'Merienda One', cursive;
+  font-family: 'Sansita', sans-serif;
 }
 .main-division8 .bullet-list li:before {
   content: "□ "
