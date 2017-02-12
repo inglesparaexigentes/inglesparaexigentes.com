@@ -122,9 +122,16 @@ button.content-content {
   justify-content: center;
   flex-wrap: wrap;
   align-items: baseline;
-  color: lavender;
-  text-shadow: 2px 1px 1px #6E7AA3;
-  font-family: 'Sansita', sans-serif;
+}
+.header .size-h1 {
+  font-family: 'Luckiest Guy', cursive;
+  background-image: linear-gradient(180deg,
+    #E6E6FA 20%,
+    #F5E1ED,
+    #E6E6FA 80%
+    );
+  -webkit-background-clip: text;
+  color: transparent;
 }
 @media (min-width: 40.75em) {
   .header {
@@ -134,6 +141,9 @@ button.content-content {
 .information-link {
   display: flex;
   align-items: baseline;
+  text-shadow: 2px 1px 1px #6E7AA3;
+  color: lavender;
+  font-family: 'Sansita', sans-serif;
 }
 .information-link>div:first-child {
   margin-right: 0.5rem;
@@ -306,13 +316,13 @@ button.content-content {
 .main-division8 .bullet-list li:before {
   content: "□ "
 }
-
-/*Styling main-division9*/
-
-.main-division9 button {
+.main-division8 button {
   display: block;
   margin: auto;
 }
+
+
+
 
 /*Styling footer*/
 
@@ -323,9 +333,15 @@ button.content-content {
   #7291B3,
   #6E7AA3);
  display: flex;
- justify-content: flex-end;
- color: lavender;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ color: #AFBFD5;
  text-shadow: 2px 2px 1px #333536;
+}
+
+.footer .motto {
+  font-family: 'Luckiest Guy', cursive;
+
 }
 
 
