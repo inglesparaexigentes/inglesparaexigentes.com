@@ -126,9 +126,12 @@ button.content-content {
 .header .size-h1 {
   font-family: 'Luckiest Guy', cursive;
   background-image: linear-gradient(180deg,
-    #E6E6FA 20%,
+   /* #E6E6FA 20%,
     #F5E1ED,
-    #E6E6FA 80%
+    #E6E6FA 80%*/
+   #8e9eab,
+   #ffffff,
+  #eef2f3
     );
   -webkit-background-clip: text;
   color: transparent;
