@@ -127,12 +127,9 @@ button.content-content {
 .header .size-h1 {
   font-family: 'Luckiest Guy', cursive;
   background-image: linear-gradient(180deg,
-   /* #E6E6FA 20%,
-    #F5E1ED,
-    #E6E6FA 80%*/
    #8e9eab,
    #ffffff,
-  #eef2f3
+   #eef2f3
     );
   -webkit-background-clip: text;
   color: transparent;
@@ -217,12 +214,7 @@ button.content-content {
 .main-division1 .size-h1 {
   font-family: 'Sansita', sans-serif;
 }
-.main-division1 .size-h2 {
-  color: #FF0000;
-}
-.main-division1 .size-h1 {
-  color: #2626FF;
-}
+
 .main-division1 form {
   display: flex;
   justify-content: center;
@@ -380,6 +372,15 @@ button.content-content {
 
 .footer .motto {
   font-family: 'Luckiest Guy', cursive;
+  background-image: linear-gradient(130deg,
+    white 25%,
+   #2626FF 30%,
+   #FF0000 40%,
+   #2626FF 50%,
+   white 60%);
+   -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: none;
 
 }
 
