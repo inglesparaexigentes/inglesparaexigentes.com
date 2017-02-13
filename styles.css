@@ -26,6 +26,7 @@ body {
 .canvas {
   max-width: 1599px;
   margin: auto;
+  color: #333536;
 }
 
 .size-h1 {
@@ -262,10 +263,26 @@ button.content-content {
   border: 4px solid #62A9BE;
 }
 
+/*Styling about me*/
+
+.about-me {
+  background-color: #ECEDF7;
+}
+.about-me .size-h2 {
+  font-family: 'Sansita', sans-serif;
+}
+
+
 /*Styling main-division4*/
 
 .main-division4 ul li:before {
   content: "● ";
+}
+.main-division4 p:first-child {
+  color: black;
+}
+.main-division4 span {
+  color: #FF4CA5;
 }
 
 /*Styling main-division5*/
@@ -282,6 +299,9 @@ button.content-content {
 }
 .main-division5 ul li:before {
   content: "→ ";
+}
+.main-division5 span {
+  color: #863ab7;
 }
 
 /*Styling main-division6*/
@@ -310,6 +330,12 @@ button.content-content {
   display: block;
   margin: auto;
 }
+.main-division7 span:first-child {
+  color: #FF4CA5;
+}
+.main-division7 span:last-child {
+  color: #863ab7;
+}
 
 /*Styling main-division8*/
 
@@ -322,6 +348,10 @@ button.content-content {
 .main-division8 button {
   display: block;
   margin: auto;
+}
+.main-division8 span {
+  font-weight: 900;
+  color: black;
 }
 
 
