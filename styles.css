@@ -217,6 +217,12 @@ button.content-content {
 .main-division1 .size-h1 {
   font-family: 'Sansita', sans-serif;
 }
+.main-division1 .size-h2 {
+  color: #FF0000;
+}
+.main-division1 .size-h1 {
+  color: #2626FF;
+}
 .main-division1 form {
   display: flex;
   justify-content: center;
@@ -282,7 +288,7 @@ button.content-content {
   color: black;
 }
 .main-division4 span {
-  color: #FF4CA5;
+  color: #FF0000;
 }
 
 /*Styling main-division5*/
@@ -301,7 +307,7 @@ button.content-content {
   content: "→ ";
 }
 .main-division5 span {
-  color: #863ab7;
+  color: #2626FF;
 }
 
 /*Styling main-division6*/
@@ -331,10 +337,10 @@ button.content-content {
   margin: auto;
 }
 .main-division7 span:first-child {
-  color: #FF4CA5;
+  color: #FF0000;
 }
 .main-division7 span:last-child {
-  color: #863ab7;
+  color: #2626FF;
 }
 
 /*Styling main-division8*/
