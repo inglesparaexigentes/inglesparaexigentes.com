@@ -254,6 +254,7 @@ button.content-content {
 }
 .main-division3 .countdown {
   display: flex;
+  flex-direction: row;
   font-family: 'Sansita', sans-serif;
 }
 .main-division3 .countdown .number {
