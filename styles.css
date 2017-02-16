@@ -6,16 +6,16 @@
 
 html {
   font-size: 1em;
-  font-family: 'Dosis', sans-serif
+  font-family: 'Lato', sans-serif;
 }
 @media (min-width: 25em) { /* 400px */
   html {
-    font-size: calc(1rem + (1.6 - 1) * (100vw - 25em) / (100 - 25));
+    font-size: calc(1rem + (1.5 - 1) * (100vw - 25em) / (100 - 25));
   }
 }
 @media (min-width: 100em) { /* 1600px */
   html {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
 }
@@ -65,15 +65,16 @@ body {
   text-align: center;
 }
 .suscribe {
-  background: #AFBFD5;
+  background: #CFDAE7;
   border: none;
-  font-family: 'Sansita', sans-serif;
-  border-radius: 10% / 50%;
-  color: #333536;
+  /*font-family: 'Sansita', sans-serif;*/
+  /*border-radius: 10% / 50%;*/
+  color: #003A4C;
   cursor: pointer;
+  padding: 0.5rem;
 }
 .suscribe:hover {
-  box-shadow: 0 0 4px 4px #AFBFD5;
+  box-shadow: 0 0 4px 4px #CFDAE7;
 }
 
 ul li {
@@ -81,10 +82,10 @@ ul li {
 }
 a:link {
   text-decoration: none;
-  color: lavender;
+  color: #CFDAE7;
 }
 a:visited {
-  color: lavender;
+  color: #CFDAE7;
 }
 a:hover {
   color: #DCDEDF;
@@ -114,25 +115,26 @@ button.content-content {
 /*Styling the header*/
 
 .header {
-  background-image: linear-gradient(
-    #62A9BE,
-    #74A2BF,
-    #7291B3,
-    #6E7AA3);
+  background-color: #CFDAE7;
+  border-bottom: 2px solid #5D9FBF;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   flex-wrap: wrap;
   align-items: baseline;
+  color: #1E7C98;
+  padding-top: 0;
+  padding-left: 2rem;
 }
-.header .size-h1 {
-  font-family: 'Luckiest Guy', cursive;
-  background-image: linear-gradient(180deg,
-   #8e9eab,
-   #ffffff,
-   #eef2f3
-    );
-  -webkit-background-clip: text;
-  color: transparent;
+.header .size-h2 {
+  font-weight: bold;
+}
+.information-link {
+  background-color: #1E7C98;
+  padding-right: 2rem;
+}
+.information-link div {
+  text-transform: uppercase;
+  font-size: 0.7rem;
 }
 @media (min-width: 40.75em) {
   .header {
@@ -142,9 +144,7 @@ button.content-content {
 .information-link {
   display: flex;
   align-items: baseline;
-  text-shadow: 2px 1px 1px #6E7AA3;
-  color: lavender;
-  font-family: 'Sansita', sans-serif;
+  /*font-family: 'Sansita', sans-serif;*/
 }
 .information-link>div:first-child {
   margin-right: 0.5rem;
@@ -199,20 +199,22 @@ button.content-content {
 /*Styling main-division1*/
 
 .main-division1 {
-  background-image: url("images/libros-web1.jpg");
+  background-image: url("images/blue-back.png");
   background-size: cover;
   background-position: top;
   background-origin: border-box;
   background-clip: border-box;
   text-align: center;
-  color: lavender;
-  text-shadow: 2px 2px 1px #333536;
+  color: white;
+  /*padding-top: 2rem;*/
+  padding-bottom: 5rem;
 }
 .main-division1>div {
   margin: auto;
 }
 .main-division1 .size-h1 {
-  font-family: 'Sansita', sans-serif;
+  /*font-family: 'Sansita', sans-serif;*/
+  text-shadow: 2px 2px 1px #1E7C98;
 }
 
 .main-division1 form {
@@ -250,12 +252,12 @@ button.content-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: lavender;
+  color: #CFDAE7;
 }
 .main-division3 .countdown {
   display: flex;
   flex-direction: row;
-  font-family: 'Sansita', sans-serif;
+  /*font-family: 'Sansita', sans-serif;*/
 }
 .main-division3 .countdown .number {
   border-radius: 50% / 50%;
@@ -268,7 +270,7 @@ button.content-content {
   background-color: #ECEDF7;
 }
 .about-me .size-h2 {
-  font-family: 'Sansita', sans-serif;
+  /*font-family: 'Sansita', sans-serif;*/
 }
 
 
@@ -289,12 +291,12 @@ button.content-content {
 .main-division5 {
   background-image: url("images/magic-web1.jpg");
   background-size: cover;
-  color: lavender;
+  color: #CFDAE7;
   text-shadow: 2px 2px 1px #333536;
 
 }
 .main-division5 .size-h2 {
- font-family: 'Sansita', sans-serif;
+ /*font-family: 'Sansita', sans-serif;*/
 }
 .main-division5 ul li:before {
   content: "→ ";
@@ -309,7 +311,7 @@ button.content-content {
   background: #ECEDF7;
 }
 .main-division6 p:first-child {
-  font-family: 'Sansita', sans-serif;
+  /*font-family: 'Sansita', sans-serif;*/
 }
 
 
@@ -321,9 +323,9 @@ button.content-content {
     #74A2BF,
     #7291B3,
     #6E7AA3);
-  color: lavender;
+  color: #CFDAE7;
   text-shadow: 2px 2px 1px #333536;
-  font-family: 'Sansita', sans-serif;
+  /*font-family: 'Sansita', sans-serif;*/
 }
 .main-division7 button {
   display: block;
@@ -339,7 +341,7 @@ button.content-content {
 /*Styling main-division8*/
 
 .main-division8 .size-h2 {
-  font-family: 'Sansita', sans-serif;
+  /*font-family: 'Sansita', sans-serif;*/
 }
 .main-division8 .bullet-list li:before {
   content: "□ "
@@ -372,7 +374,7 @@ button.content-content {
 }
 
 .footer .motto {
-  font-family: 'Luckiest Guy', cursive;
+  /*font-family: 'Luckiest Guy', cursive;*/
   background-image: linear-gradient(130deg,
     white 25%,
    #2626FF 30%,
