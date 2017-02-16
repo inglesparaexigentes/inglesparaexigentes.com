@@ -258,6 +258,7 @@ button.content-content {
 }
 .main-division3 .countdown {
   display: flex;
+  width: 100%;
   flex-direction: row;
   /*font-family: 'Sansita', sans-serif;*/
 }
