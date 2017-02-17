@@ -83,12 +83,13 @@ ul li {
 a:link {
   text-decoration: none;
   color: #CFDAE7;
+  cursor: pointer;
 }
 a:visited {
   color: #CFDAE7;
 }
 a:hover {
-  color: #DCDEDF;
+  color: white;
 }
 
 /*Styling container and element*/
@@ -115,10 +116,10 @@ button.content-content {
 /*Styling the header*/
 
 .header {
-  background-color: #CFDAE7;
+  /*background-color: #CFDAE7;*/
   border-bottom: 2px solid #1E7C98;
   display: flex;
-  /*justify-content: center;*/
+  justify-content: center;
   flex-wrap: wrap;
   align-items: baseline;
   color: #1E7C98;
@@ -126,26 +127,27 @@ button.content-content {
   padding-right: 0;
   padding-left: 2rem;
 }
-.header .size-h2 {
-  font-weight: bold;
-}
-.information-link {
-  background-color: #1E7C98;
-  padding-right: 2rem;
-}
-.information-link div {
-  text-transform: uppercase;
-  font-size: 0.7rem;
-}
 @media (min-width: 40.75em) {
   .header {
     justify-content: space-between;
   }
 }
+.header .size-h2 {
+  font-weight: bold;
+}
 .information-link {
   display: flex;
   align-items: baseline;
+  background-color: #1E7C98;
+  padding-right: 2rem;
   /*font-family: 'Sansita', sans-serif;*/
+}
+.information-link div {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+.information-link:hover {
+  transform: scale(1.1);
 }
 .information-link>div:first-child {
   margin-right: 0.5rem;
@@ -171,13 +173,13 @@ button.content-content {
   text-align: left;
 }
 .main-division p {
-  max-width: 30em;
+  max-width: 35em;
   margin-right: auto;
   margin-left: auto;
 }
 .main-division .size-h1,
 .main-division .size-h2 {
-  max-width: 24em;
+  max-width: 30em;
   text-align: center;
 }
 .main-division ul,
@@ -234,10 +236,6 @@ button.content-content {
 .main-division1 input:hover {
   box-shadow: 0 0 4px 4px white;
 }
-/*.main-division1 p,
-.main-division1 .size-h2 {
-  color: #333536;
-}*/
 
 /*Styling main-division2*/
 
@@ -256,21 +254,12 @@ button.content-content {
   color: #CFDAE7;
   z-index: 2;
 }
-.main-division3 .countdown {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  /*font-family: 'Sansita', sans-serif;*/
-}
-.main-division3 .countdown .number {
-  border-radius: 50% / 50%;
-  border: 4px solid #62A9BE;
-}
 
 /*Styling about me*/
 
 .about-me {
-  background-color: #ECEDF7;
+  position: relative;
+  top: -2rem;
 }
 .about-me .size-h2 {
   /*font-family: 'Sansita', sans-serif;*/
@@ -278,34 +267,75 @@ button.content-content {
 
 
 /*Styling main-division4*/
-
-.main-division4 ul li:before {
-  content: "● ";
+.main-division4 {
+  background-color: #CFDAE7;
+  margin-top: -2rem;
 }
-.main-division4 p:first-child {
+.main-division4 .image-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.main-division4 .image-title img {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.main-division4 div:first-child {
   color: black;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+
 }
 .main-division4 span {
-  color: #FF0000;
+  color: #007F9C;
 }
-
+.main-division4 .image-text-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+}
+.main-division4 legend {
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.main-division4 .image-text {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.main-division4 .image-text img {
+  margin: auto;
+  height: 50%;
+}
+.main-division4 .image-text p {
+  text-align: center;
+  height: 50%;
+}
 /*Styling main-division5*/
 
 .main-division5 {
-  background-image: url("images/magic-web1.jpg");
+  background-image: url("images/grey-back.png");
   background-size: cover;
-  color: #CFDAE7;
-  text-shadow: 2px 2px 1px #333536;
+  /*color: black;*/
 
 }
 .main-division5 .size-h2 {
  /*font-family: 'Sansita', sans-serif;*/
+ 
 }
 .main-division5 ul li:before {
   content: "→ ";
 }
 .main-division5 span {
-  color: #2626FF;
+  color: white;
+  text-shadow: 2px 2px 1px black;
 }
 
 /*Styling main-division6*/
@@ -321,24 +351,17 @@ button.content-content {
 /*Styling main-division7*/
 
 .main-division7 {
-  background-image: linear-gradient(
-    #62A9BE,
-    #74A2BF,
-    #7291B3,
-    #6E7AA3);
-  color: #CFDAE7;
-  text-shadow: 2px 2px 1px #333536;
-  /*font-family: 'Sansita', sans-serif;*/
+  background: #1E7C98;
+    /*font-family: 'Sansita', sans-serif;*/
 }
 .main-division7 button {
   display: block;
   margin: auto;
 }
-.main-division7 span:first-child {
-  color: #FF0000;
-}
-.main-division7 span:last-child {
-  color: #2626FF;
+.main-division7 span {
+  color: white;
+  text-shadow: 2px 2px 1px #333536;
+
 }
 
 /*Styling main-division8*/
