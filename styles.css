@@ -300,11 +300,6 @@ button.content-content {
   justify-content: space-around;
   margin: auto;
 }
-.main-division4 legend {
-  text-align: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .main-division4 .image-text {
   width: 20%;
   display: flex;
@@ -321,8 +316,8 @@ button.content-content {
 /*Styling main-division5*/
 
 .main-division5 {
-  background-image: url("images/grey-back.png");
-  background-size: cover;
+  /*background-image: url("images/grey-back.png");
+  background-size: cover;*/
   /*color: black;*/
 
 }
@@ -330,18 +325,28 @@ button.content-content {
  /*font-family: 'Sansita', sans-serif;*/
  
 }
-.main-division5 ul li:before {
-  content: "→ ";
+.main-division5 .image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+.main-division5 .image-text img {
+  margin-right: 2rem;
+}
+.main-division5 .image-text p:last-child {
+  margin-left: 0;
 }
 .main-division5 span {
-  color: white;
-  text-shadow: 2px 2px 1px black;
+  color: #007F9C;
+  /*text-shadow: 2px 2px 1px black;*/
 }
 
 /*Styling main-division6*/
 
 .main-division6 {
-  background: #ECEDF7;
+  background: #CFDAE7;
 }
 .main-division6 p:first-child {
   /*font-family: 'Sansita', sans-serif;*/
