@@ -8,20 +8,24 @@ html {
   font-size: 1em;
   font-family: 'Lato', sans-serif;
 }
+
+.canvas {
+  font-size: 1rem;
+  line-height: 1.5em;
+}
 @media (min-width: 25em) { /* 400px */
-  html {
-    font-size: calc(1rem + (1.5 - 1) * (100vw - 25em) / (100 - 25));
+  .canvas {
+    font-size: calc(1rem + (1.5 - 1) * (100vw - 25rem) / (100 - 25));
   }
 }
 @media (min-width: 100em) { /* 1600px */
-  html {
+  .canvas {
     font-size: 1.5rem;
   }
 
 }
 body {
   background: #F2F3F4;
-  line-height: 1.5;
 }
 .canvas {
   max-width: 1599px;
@@ -31,10 +35,11 @@ body {
 
 .size-h1 {
   font-size: 2rem;
+  line-height: 1.5em;
 }
 @media (min-width: 25em) { /* 400px */
   .size-h1 {
-    font-size: calc(2rem + (4 - 2) * (100vw - 25em) / (100 - 25));
+    font-size: calc(2rem + (4 - 2) * (100vw - 25rem) / (100 - 25));
 
   }
 }
@@ -46,10 +51,11 @@ body {
 
 .size-h2 {
   font-size: 1.2rem;
+  line-height: 1.5em;
 }
 @media (min-width: 25em) { /* 400px */
   .size-h2 {
-    font-size: calc(1.2rem + (2 - 1.2) * (100vw - 25em) / (100 - 25));
+    font-size: calc(1.2rem + (2 - 1.2) * (100vw - 25rem) / (100 - 25));
 
   }
 }
@@ -121,7 +127,7 @@ button.content-content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   color: #1E7C98;
   /*padding-top: 0;*/
 }
@@ -129,6 +135,10 @@ button.content-content {
   .header {
     justify-content: space-between;
   }
+}
+.project-name {
+  /*background-color: red;*/
+  line-height: 1em;
 }
 .header .size-h2 {
   font-weight: bold;
@@ -246,7 +256,9 @@ button.content-content {
 
 
 /*Styling main-division3*/
-.main-division3 {}
+.main-division3 {
+
+}
 .main-division3  .main-division-text {
   background: #1E7C98;
   width: 80%;
@@ -257,7 +269,6 @@ button.content-content {
   align-items: center;
   color: #CFDAE7;
   z-index: 2;
-  margin-top: -3rem;
 }
 
 /*Styling about me*/
