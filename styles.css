@@ -246,7 +246,7 @@ button.content-content {
 
 
 /*Styling main-division3*/
-
+.main-division3 {}
 .main-division3  .main-division-text {
   background: #1E7C98;
   width: 80%;
@@ -257,6 +257,7 @@ button.content-content {
   align-items: center;
   color: #CFDAE7;
   z-index: 2;
+  margin-top: -3rem;
 }
 
 /*Styling about me*/
