@@ -97,6 +97,10 @@ a:visited {
 a:hover {
   color: white;
 }
+img {
+  width: 5rem;
+  height: 5rem;
+}
 
 /*Styling container and element*/
 
@@ -173,6 +177,8 @@ button.content-content {
   align-items: center;
 }
 .information-link img {
+  width: 2rem;
+  height: 2rem;
   margin-right: 0.5rem;
 }
 .information-link:hover {
