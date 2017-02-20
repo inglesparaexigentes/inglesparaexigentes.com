@@ -306,33 +306,26 @@ button.content-content {
 .main-division4 {
   background-color: #CFDAE7;
 }
-.main-division4 .image-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  margin: auto;
-}
-.main-division4 .image-title img {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-.main-division4>div:first-child {
+.main-division4 .size-h2 {
   color: black;
   font-weight: bold;
   margin: auto;
   text-align: center;
-
 }
 .main-division4 span {
   color: #007F9C;
 }
+.main-division4 .image-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 .main-division4 .image-text-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   width: 80%;
-  justify-content: space-around;
+  justify-content: center;
   margin: auto;
 }
 .main-division4 .image-text {
@@ -340,14 +333,36 @@ button.content-content {
   display: flex;
   flex-direction: column;
 }
-.main-division4 .image-text img {
+.main-division4 .image-text .single-image {
   margin: auto;
-  height: 50%;
-}
-.main-division4 .image-text p {
   text-align: center;
   height: 50%;
+  /*padding: 0.5rem;*/
+  border: 2px solid #AFBFD5;
 }
+.main-division4 .single-text:before {
+  content: "✘ ";
+  color: red;
+}
+.main-division4 .image-text .single-text {
+  font-size: 0.8rem;
+  width: 80%;
+  text-align: center;
+  height: 50%;
+  margin: auto;
+}
+@media (min-width: 25em) { /* 400px */
+ .main-division4 .image-text .single-text {
+    font-size: calc(0.8rem + (1.2 - 0.8) * (100vw - 25rem) / (100 - 25));
+  }
+}
+@media (min-width: 100em) { /* 1600px */
+  .main-division4 .image-text .single-text {
+    font-size: 1.2rem;
+  }
+}
+
+
 /*Styling main-division5*/
 
 .main-division5 {
@@ -371,6 +386,10 @@ button.content-content {
   margin-right: 2rem;
   padding: 0.5rem;
   border: 2px solid #AFBFD5;
+}
+.main-division5 .image-text p:before {
+  content: "✔";
+  color: green;
 }
 .main-division5 .image-text p:last-child {
   margin-left: 0;
