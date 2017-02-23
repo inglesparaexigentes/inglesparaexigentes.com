@@ -158,8 +158,17 @@ button.content-content {
 
 .project-name-container {
   /*background-color: red;*/
-  line-height: 1em;
+  /*line-height: 1em;*/
+  font-family: 'Leckerli One', cursive;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
+.project-name-container .logo-image {
+  align-self: flex-end;
+}
+
 .header .size-h2 {
   font-weight: bold;
 }
@@ -383,12 +392,11 @@ button.content-content {
   margin: auto;
 }
 .main-division5 .image-text img {
-  margin-right: 2rem;
   padding: 0.5rem;
   border: 2px solid #AFBFD5;
 }
 .main-division5 .image-text p:before {
-  content: "✔";
+  content: "✔ ";
   color: green;
 }
 .main-division5 .image-text p:last-child {
