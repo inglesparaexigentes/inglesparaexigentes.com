@@ -415,7 +415,28 @@ button.content-content {
 .main-division6 p:first-child {
   /*font-family: 'Sansita', sans-serif;*/
 }
-
+.main-division6 .image-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+.main-division6 .image-text img {
+  padding: 0.5rem;
+  border: 2px solid #AFBFD5;
+}
+.main-division6 .single-text-wrong:before {
+  content: "✘ ";
+  color: red;
+}
+.main-division6 .single-text-ok:before {
+  content: "✔ ";
+  color: green;
+}
+.main-division5 .image-text p:last-child {
+  margin-left: 0;
+}
 
 /*Styling main-division7*/
 
@@ -439,7 +460,6 @@ button.content-content {
   /*font-family: 'Sansita', sans-serif;*/
 }
 .main-division8 .bullet-list li:before {
-  content: "□ "
 }
 .main-division8 button {
   display: block;
@@ -448,6 +468,10 @@ button.content-content {
 .main-division8 span {
   font-weight: 900;
   color: black;
+}
+.main-division8 img {
+  width: 2rem;
+  height: 2rem;
 }
 
 
