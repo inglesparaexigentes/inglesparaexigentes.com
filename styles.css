@@ -157,7 +157,7 @@ button.content-content {
 }
 
 .project-name-container {
-  /*background-color: red;*/
+  /*background-color: #F1543F;*/
   /*line-height: 1em;*/
   font-family: 'Leckerli One', cursive;
   display: flex;
@@ -303,8 +303,18 @@ button.content-content {
 }
 
 /*Styling about me*/
-
 .about-me {
+  text-align: center;
+}
+.about-me img {
+  width: 11rem;
+  height: 10rem;
+  border-radius: 100% / 100%;
+  border: 10px double #F1543F;
+
+}
+.about-me p {
+  text-align: left;
 }
 .about-me .size-h2 {
   /*font-family: 'Sansita', sans-serif;*/
@@ -322,7 +332,7 @@ button.content-content {
   text-align: center;
 }
 .main-division4 span {
-  color: #007F9C;
+  color: #F1543F/*#007F9C*/;
 }
 .main-division4 .image-title {
   display: flex;
@@ -351,7 +361,7 @@ button.content-content {
 }
 .main-division4 .single-text:before {
   content: "✘ ";
-  color: red;
+  color: #F1543F;
 }
 .main-division4 .image-text .single-text {
   font-size: 0.8rem;
@@ -403,7 +413,7 @@ button.content-content {
   margin-left: 0;
 }
 .main-division5 span {
-  color: #007F9C;
+  color: #F1543F/*#007F9C*/;
   /*text-shadow: 2px 2px 1px black;*/
 }
 
@@ -428,7 +438,7 @@ button.content-content {
 }
 .main-division6 .single-text-wrong:before {
   content: "✘ ";
-  color: red;
+  color: #F1543F;
 }
 .main-division6 .single-text-ok:before {
   content: "✔ ";
@@ -444,12 +454,15 @@ button.content-content {
   background: #1E7C98;
     /*font-family: 'Sansita', sans-serif;*/
 }
+.main-division7 .size-h2 {
+  color: #CFDAE7;
+}
 .main-division7 button {
   display: block;
   margin: auto;
 }
 .main-division7 span {
-  color: white;
+  color: #F1543F;
   text-shadow: 2px 2px 1px #333536;
 
 }
@@ -480,11 +493,7 @@ button.content-content {
 /*Styling footer*/
 
 .footer {
- background-image: linear-gradient(
-  #62A9BE,
-  #74A2BF,
-  #7291B3,
-  #6E7AA3);
+ background: #1E7C98;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
@@ -494,16 +503,7 @@ button.content-content {
 
 .footer .motto {
   /*font-family: 'Luckiest Guy', cursive;*/
-  background-image: linear-gradient(130deg,
-    white 25%,
-   #2626FF 30%,
-   #FF0000 40%,
-   #2626FF 50%,
-   white 60%);
-   -webkit-background-clip: text;
-  color: transparent;
-  text-shadow: none;
-
+  
 }
 
 
