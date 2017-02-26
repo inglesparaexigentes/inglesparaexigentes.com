@@ -150,13 +150,19 @@ button.content-content {
   /*background-color: #CFDAE7;*/
   border-bottom: 2px solid #1E7C98;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  /*flex-wrap: wrap;*/
   align-items: center;
   color: #1E7C98;
   /*padding-top: 0;*/
 }
-
+@media (min-width: 50em) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 .project-name-container {
   /*background-color: #F1543F;*/
   /*line-height: 1em;*/
