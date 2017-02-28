@@ -202,6 +202,22 @@ button.content-content {
 .project-name-container .logo-image {
   align-self: flex-end;
 }
+.project-name-container .logo-image img {
+  width: 3rem;
+  height: 3rem;
+}
+@media (min-width: 25em) {
+  .project-name-container .logo-image img {
+    width: calc(3rem + (7 - 3) * (100vw - 25rem) / (100 - 25));
+    height: calc(3rem + (7 - 3) * (100vw - 25rem) / (100 - 25));
+  }
+}
+@media (min-width: 100em) {
+  .project-name-container .logo-image img {
+    width: 7rem;
+    height: 7rem;
+  }
+}
 
 .header .size-h2 {
   font-weight: bold;
@@ -316,8 +332,7 @@ button.content-content {
 .main-division1 input:hover {
   box-shadow: 0 0 4px 4px white;
 }
-
-/*Styling main-division2*/
+s/*Styling main-division2*/
 
 
 /*Styling main-division3*/
@@ -362,8 +377,6 @@ button.content-content {
   flex-direction: column;
 }
 .main-division4 .size-h2 {
-  color: black;
-  font-weight: bold;
   margin: auto;
   text-align: center;
 }
@@ -515,7 +528,7 @@ button.content-content {
   content: "✔ ";
   color: green;
 }
-.main-division5 .image-text p:last-child {
+.main-division6 .image-text p:last-child {
   margin-left: 0;
 }
 
@@ -540,24 +553,64 @@ button.content-content {
 
 /*Styling main-division8*/
 
-.main-division8 .size-h2 {
-  /*font-family: 'Sansita', sans-serif;*/
-}
-.main-division8 .bullet-list li:before {
-}
-.main-division8 button {
-  display: block;
+.main-division8 .image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin: auto;
 }
-.main-division8 span {
-  font-weight: 900;
-  color: black;
+@media (min-width: 43em) {
+  .main-division8 .image-text {
+    width: 50%;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+  }
 }
-.main-division8 img {
+.main-division8 .image-text img {
+  padding: 0.5rem;
+  border: 2px solid #AFBFD5;
+}
+/*.main-division8 .small-text-ok:before {
+  content: "✔ ";
+  color: green;
+}*/
+
+
+/*Styling main9*/
+
+.main-division9 .image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+@media (min-width: 43em) {
+  .main-division9 .image-text {
+    width: 50%;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
+.main-division9 .single-image {
+  align-self: baseline;
+}
+.main-division9 img {
   width: 2rem;
   height: 2rem;
 }
-
+.main-division9 button {
+  display: block;
+  margin: auto;
+}
+.main-division9 span {
+  font-weight: 900;
+  color: black;
+}
 
 
 
