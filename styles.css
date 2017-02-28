@@ -550,6 +550,10 @@ s/*Styling main-division2*/
   text-shadow: 2px 2px 1px #333536;
 
 }
+.main-division7 span:last-child {
+  color: green;
+  text-shadow: 2px 2px 1px #333536;
+}
 
 /*Styling main-division8*/
 
@@ -577,7 +581,10 @@ s/*Styling main-division2*/
   content: "✔ ";
   color: green;
 }*/
-
+.main-division8 .small-text-ok p{
+  /*color: black;*/
+  font-weight: bold;
+}
 
 /*Styling main9*/
 
