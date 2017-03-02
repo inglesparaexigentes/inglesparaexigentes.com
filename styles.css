@@ -21,7 +21,7 @@ html {
 }
 @media (min-width: 100em) { /* 1600px */
   .canvas {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
 }
@@ -550,10 +550,7 @@ s/*Styling main-division2*/
   text-shadow: 2px 2px 1px #333536;
 
 }
-.main-division7 span:last-child {
-  color: green;
-  text-shadow: 2px 2px 1px #333536;
-}
+
 
 /*Styling main-division8*/
 
@@ -577,14 +574,7 @@ s/*Styling main-division2*/
   padding: 0.5rem;
   border: 2px solid #AFBFD5;
 }
-/*.main-division8 .small-text-ok:before {
-  content: "✔ ";
-  color: green;
-}*/
-.main-division8 .small-text-ok p{
-  /*color: black;*/
-  font-weight: bold;
-}
+
 
 /*Styling main9*/
 
@@ -614,10 +604,10 @@ s/*Styling main-division2*/
   display: block;
   margin: auto;
 }
-.main-division9 span {
+/*.main-division9 span {
   font-weight: 900;
   color: black;
-}
+}*/
 
 
 
