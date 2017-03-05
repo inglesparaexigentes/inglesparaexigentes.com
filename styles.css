@@ -54,6 +54,7 @@ body {
   font-size: 1.4rem;
   line-height: 1.5em;
   /*margin-bottom: 0.2rem;*/
+  margin-top: -0.4em;
 }
 @media (min-width: 25em) { /* 400px */
   .size-h2 {
@@ -126,18 +127,18 @@ img {
 } 
 .content-element,
 .content-content {
- padding: 0.4rem;
+ padding: 0.7rem;
 }
 @media (min-width: 25em) { /* 400px */
   .content-element,
   .content-content {
-    padding: calc(0.4rem + (0.6 - 0.4) * (100vw - 25rem) / (100 - 25));
+    padding: calc(0.7rem + (0.8 - 0.7) * (100vw - 25rem) / (100 - 25));
   }
 }
 @media (min-width: 100em) { /* 1600px */
   .content-element,
   .content-content {
-    padding: 0.6rem;
+    padding: 0.8rem;
   }
 }
 .small-content {
@@ -157,17 +158,17 @@ button.content-content {
   padding: 0.7rem;
 }
 .content-container {
-  padding: 1rem 0.4rem;
+  padding: 1rem 0.5rem;
 }
 @media (min-width: 25em) { /* 400px */
   .content-container {
-    padding: calc(0.5rem + (1 - 0.5) * (100vw - 25rem) / (100 - 25)) 0.4rem;
+    padding: calc(1rem + (1.4 - 1) * (100vw - 25rem) / (100 - 25)) 0.5rem;
              
   }
 }
 @media (min-width: 100em) { /* 1600px */
   .content-container {
-    padding: 1rem 0.4rem;
+    padding: 1.4rem 0.5rem;
   }
 }
 
