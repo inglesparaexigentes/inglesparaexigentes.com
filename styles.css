@@ -204,6 +204,13 @@ button.content-content {
   justify-content: center;
   align-items: center;
 }
+.project-name-container a {
+  color: #1E7C98;
+  display: flex;
+}
+.project-name-container a:hover {
+  text-decoration: underline;
+}
 .project-name-container .logo-image {
   align-self: flex-end;
 }
