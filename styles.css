@@ -115,6 +115,9 @@ img {
   cursor: pointer;
   padding: 0.5rem;
 }
+a.suscribe {
+  color: #003A4C;
+}
 .suscribe:hover {
   box-shadow: 0 0 4px 4px #CFDAE7;
 }
