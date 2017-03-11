@@ -86,22 +86,6 @@ body {
 .centered {
   text-align: center;
 }
-.suscribe {
-  background: #CFDAE7;
-  border: none;
-  /*font-family: 'Sansita', sans-serif;*/
-  /*border-radius: 10% / 50%;*/
-  color: #003A4C;
-  cursor: pointer;
-  padding: 0.5rem;
-}
-.suscribe:hover {
-  box-shadow: 0 0 4px 4px #CFDAE7;
-}
-.suscribe:visited,
-.suscribe:hover {
-  color: #003A4C;
-}
 
 ul li {
   list-style: none;
@@ -120,6 +104,23 @@ a:hover {
 img {
   width: 5rem;
   height: 5rem;
+}
+
+.suscribe {
+  background: #CFDAE7;
+  border: none;
+  /*font-family: 'Sansita', sans-serif;*/
+  /*border-radius: 10% / 50%;*/
+  color: #003A4C;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.suscribe:hover {
+  box-shadow: 0 0 4px 4px #CFDAE7;
+}
+.suscribe:visited,
+.suscribe:hover {
+  color: #003A4C;
 }
 
 /*Styling container and element*/
