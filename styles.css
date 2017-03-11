@@ -98,6 +98,10 @@ body {
 .suscribe:hover {
   box-shadow: 0 0 4px 4px #CFDAE7;
 }
+.suscribe:visited,
+.suscribe:hover {
+  color: #003A4C;
+}
 
 ul li {
   list-style: none;
@@ -269,12 +273,13 @@ button.content-content {
   /*overflow: hidden;*/
   margin: auto;
   /*margin-top: -3rem;*/
-  text-align: left;
+  text-align: center;
 }
 .main-division p {
   max-width: 35em;
   margin-right: auto;
   margin-left: auto;
+  text-align: left;
 }
 .main-division .size-h1,
 .main-division .size-h2 {
