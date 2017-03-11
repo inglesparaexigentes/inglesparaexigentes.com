@@ -236,14 +236,17 @@ button.content-content {
   justify-content: center;
   align-items: center;
 }
+.information-link a {
+  display: flex;
+}
 .information-link img {
   width: 2rem;
   height: 2rem;
   margin-right: 0.5rem;
 }
-.information-link:hover {
+/*.information-link:hover {
   transform: scale(1.1);
-}
+}*/
 .information-link>div:first-child {
   margin-right: 0.5rem;
 }
@@ -305,6 +308,7 @@ button.content-content {
   background-clip: border-box;
   text-align: center;
   color: white;
+  padding-top: 3rem;
   padding-bottom: 5rem;
   z-index: 1;
   margin: 0;
