@@ -359,6 +359,9 @@ button.content-content {
     padding-bottom: 5rem;
   }
 }
+.main-division1>p {
+  text-align: center;
+}
 .main-division1>div {
   margin: auto;
 }
