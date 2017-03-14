@@ -75,6 +75,7 @@ body {
   line-height: 1.5em;
   /*margin-bottom: 0.2rem;*/
   margin-top: -0.4em;
+  margin-bottom: 0.6rem;
 }
 @media (min-width: 25em) { /* 400px */
   .size-h2 {
@@ -112,7 +113,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #f59622;
+  color: #FFCC00;
 }
 
 ul li p {
@@ -124,24 +125,27 @@ img {
 }
 
 .suscribe {
-  background: #CFDAE7;
-  border: none;
+  background: #FFCC00;
+  /*border: 1px solid #1E7C98;*/
   /*font-family: 'Sansita', sans-serif;*/
-  /*border-radius: 10% / 50%;*/
-  color: #003A4C;
+  border: 0;
+  border-radius: 5px;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   white-space: nowrap;
+  width: 100%;
+  display: block;
 }
+.suscribe,
 a.suscribe {
-  color: #003A4C;
+  color: white;
+  text-shadow: 0 1px 1px black;
+  /*font-weight: bold;*/
 }
 .suscribe:hover {
-  box-shadow: 0 0 2px 2px #CFDAE7;
-}
-.suscribe:visited,
-.suscribe:hover {
-  color: #003A4C;
+  background: rgb(248, 183, 45);
+  color: white;
+  /*box-shadow: 0 0 2px 2px #CFDAE7;*/
 }
 
 /*Styling container and element*/
@@ -450,7 +454,7 @@ button.content-content {
 }
 .main-division1 input,
 .main-division1 button {
-  margin-bottom: 5px;
+  margin-bottom: 0.7rem;
 }
 @media (min-width: 35em) {
   .form-join {
@@ -459,6 +463,11 @@ button.content-content {
   .main-division1 input,
   .main-division1 button {
     margin-right: 5px;
+    margin-bottom: 0;
+  }
+  .suscribe {
+    width: auto;
+    display: inline;
   }
 }
 s/*Styling main-division2*/
