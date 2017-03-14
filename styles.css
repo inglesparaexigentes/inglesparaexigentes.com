@@ -166,16 +166,16 @@ a.suscribe {
   }
 }
 .small-content {
-  padding: 0.2rem;
+  padding: 0.2rem .6rem;
 }
 @media (min-width: 25em) {
   .small-content {
-    padding: calc(0.2rem + (0.4 - 0.2) * (100vw - 25rem) / (100 - 25));
+    padding: calc(0.2rem + (0.4 - 0.2) * (100vw - 25rem) / (100 - 25)) .6rem;
   }
 }
 @media (min-width: 100em) {
   .small-content {
-    padding: 0.4rem;
+    padding: 0.4rem .6rem;
   }
 }
 button.content-content {
@@ -571,7 +571,6 @@ button.content-content {
     justify-content: flex-start;
     text-align: left;
   }
-
 }
 .main-division5 .image-text p {
   margin: 0;
