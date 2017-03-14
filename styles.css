@@ -54,6 +54,22 @@ body {
   }
 }
 
+.subtitle {
+  font-size: 1.2rem;
+  line-height: 1.3em;
+}
+@media (min-width: 25em) { /* 400px */
+  .subtitle {
+    font-size: calc(1.3rem + (1.8 - 1.2) * (100vw - 25rem) / (100 - 25));
+
+  }
+}
+@media (min-width: 100em) { /* 1600px */
+  .subtitle {
+    font-size: 1.8rem;
+  }
+}
+
 .size-h2 {
   font-size: 1.4rem;
   line-height: 1.5em;
