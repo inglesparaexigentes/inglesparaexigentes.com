@@ -385,6 +385,7 @@ button.content-content {
   width: 30em;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0 1rem;
 }
 .main-division1 input {
   outline: none;
