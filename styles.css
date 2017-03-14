@@ -112,12 +112,13 @@ img {
   color: #003A4C;
   cursor: pointer;
   padding: 0.5rem;
+  white-space: nowrap;
 }
 a.suscribe {
   color: #003A4C;
 }
 .suscribe:hover {
-  box-shadow: 0 0 4px 4px #CFDAE7;
+  box-shadow: 0 0 2px 2px #CFDAE7;
 }
 .suscribe:visited,
 .suscribe:hover {
@@ -379,15 +380,36 @@ button.content-content {
   align-items: baseline;
   flex-wrap: wrap;
 }
+.form-join {
+  display: flex;
+  width: 30em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .main-division1 input {
   outline: none;
   border: none;
-  width: 20rem;
+  /*width: 30rem;*/
+  flex-grow: 1;
   text-align: center;
-  max-width: 100%;
+  padding: .5rem;
+  width: 100%;
 }
 .main-division1 input:hover {
-  box-shadow: 0 0 4px 4px white;
+  box-shadow: 0 0 2px 2px white;
+}
+.main-division1 input,
+.main-division1 button {
+  margin-bottom: 5px;
+}
+@media (min-width: 35em) {
+  .form-join {
+    flex-wrap: nowrap;
+  }
+  .main-division1 input,
+  .main-division1 button {
+    margin-right: 5px;
+  }
 }
 s/*Styling main-division2*/
 
