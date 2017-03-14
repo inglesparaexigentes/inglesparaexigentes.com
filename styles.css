@@ -185,13 +185,13 @@ button.content-content {
 }
 @media (min-width: 25em) { /* 400px */
   .content-container {
-    padding: calc(1rem + (1.4 - 1) * (100vw - 25rem) / (100 - 25)) 0.5rem;
+    padding: calc(1rem + (2.5 - 1) * (100vw - 25rem) / (100 - 25)) 0.5rem;
              
   }
 }
 @media (min-width: 100em) { /* 1600px */
   .content-container {
-    padding: 1.4rem 0.5rem;
+    padding: 2.5rem 0.5rem;
   }
 }
 
