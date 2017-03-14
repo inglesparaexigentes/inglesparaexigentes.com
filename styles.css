@@ -575,7 +575,7 @@ s/*Styling main-division2*/
   content: "✘ ";
   color: #F1543F;
 }
-.main-division4 .sample-text {
+.sample-text {
   /*background-color: pink;*/
   width: 100%;
   text-align: center;
@@ -622,11 +622,11 @@ s/*Styling main-division2*/
   padding: 0.5rem;
   border: 2px solid #AFBFD5;
 }
-.main-division5 .image-text p:before {
+.main-division5 .image-text div:nth-child(2)::before {
   content: "✔ ";
   color: green;
 }
-.main-division5 .image-text p:last-child {
+.main-division5 .image-text div:last-child {
   margin-left: 0;
 }
 .main-division5 span {
