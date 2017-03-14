@@ -88,22 +88,16 @@ body {
 /*Styling general*/
 
 .centered {
-  text-align: center;
+  text-align: center !important;
+}
+
+a {
+  color: #1E7C98;
+  text-decoration: none;
 }
 
 ul li p {
   padding-left: 0 !important;
-}
-a:link {
-  text-decoration: none;
-  color: #CFDAE7;
-  cursor: pointer;
-}
-a:visited {
-  color: #CFDAE7;
-}
-a:hover {
-  color: white;
 }
 img {
   width: 5rem;
@@ -247,6 +241,15 @@ button.content-content {
   align-items: baseline;
    background-color: #1E7C98;
    /*margin-right: 0.5rem;*/
+}
+.information-link a:link {
+  color: #CFDAE7;
+}
+.information-link a:visited {
+  color: #CFDAE7;
+}
+.information-link a:hover {
+  color: white;
 }
 .information-link div {
   text-transform: uppercase;
@@ -663,7 +666,9 @@ s/*Styling main-division2*/
   color: black;
 }*/
 
-
+.main-division10 {
+  background: #CFDAE7;
+}
 
 /*Styling footer*/
 
