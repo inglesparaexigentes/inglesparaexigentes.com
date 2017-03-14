@@ -414,9 +414,12 @@ s/*Styling main-division2*/
 }
 .about-me img {
   width: 11rem;
-  height: 10rem;
-  border-radius: 100% / 100%;
-  border: 10px double #F1543F;
+  height: auto;
+  /*height: 11rem;*/
+  border-radius: 50% / 50%;
+  border: 1px solid #F1543F;
+  padding: 7px;
+  background: white;
 
 }
 .about-me p {
