@@ -416,7 +416,7 @@ button.content-content {
 }
 .form-join {
   display: flex;
-  width: 30em;
+  width: 33em;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 1rem;
@@ -424,7 +424,6 @@ button.content-content {
 .main-division1 input {
   outline: none;
   border: none;
-  flex-grow: 1;
   text-align: center;
   padding: .5rem;
   width: 100%;
@@ -439,6 +438,13 @@ button.content-content {
 @media (min-width: 35em) {
   .form-join {
     flex-wrap: nowrap;
+  }
+  .main-division1 input {
+    width: 0;
+    min-width: 8em;
+  }
+  #mce-EMAIL {
+    flex-grow: 1;
   }
   .main-division1 input,
   .main-division1 button {
