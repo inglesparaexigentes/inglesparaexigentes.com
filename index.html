@@ -27,12 +27,12 @@
     <div class="header">
 
 
-            <a class="project-name-container" href="/">
-                <img src="images/soldiergrande.png">
-                <div class="project-name">
-                    Inglés para Exigentes
-                </div>
-            </a>
+        <a class="project-name-container" href="/">
+            <img src="images/soldiergrande.png">
+            <div class="project-name">
+                Inglés para Exigentes
+            </div>
+        </a>
 
         <div class="menu">
             <a href="#about-me">
@@ -55,7 +55,8 @@
             <form action="//inglesparaexigentes.us14.list-manage.com/subscribe/post?u=59eaa7b31ae8d83fe16a3141c&amp;id=32a2a37329"
                   method="post"
                   target="_blank"
-                  class="content-container">
+                  class="content-container"
+                  onsubmit="document.getElementById('mce-FNAME').value = capitalizeFirstLetter(getFirstWord(document.getElementById('mce-FNAME').value)); return true;">
                 <div class="form-join content-content">
                     <input type="text" value="" name="FNAME" class="" id="mce-FNAME"
                            placeholder="Tu nombre" required="required">
@@ -128,7 +129,8 @@
                 ¿Cuándo fue la última vez que sentiste <span>progreso</span> en inglés?
             </p>
             <p class="content-content">
-                Hay momentos en los que algo en nuestra cabeza hace <i>clic</i>. Creamos una conexión y, de repente, entendemos
+                Hay momentos en los que algo en nuestra cabeza hace <i>clic</i>. Creamos una conexión y, de repente,
+                entendemos
                 un tema como por arte de magia.
             </p>
             <p class="content-content">
@@ -139,14 +141,16 @@
                     <img src="images/teacher.png">
                 </div>
                 <div class="small-content small-text">un profesor que explica lo mismo de siempre usando palabras
-                    ligeramente distintas;</div>
+                    ligeramente distintas;
+                </div>
             </div>
             <div class="image-text">
                 <div class="small-content">
                     <img src="images/talking.png">
                 </div>
                 <div class="small-content small-text">un compañero que enfoca cierto problema de una forma
-                    alternativa;</div>
+                    alternativa;
+                </div>
             </div>
             <div class="image-text">
                 <div class="small-content">
@@ -262,13 +266,34 @@
 </div>
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+    function getFirstWord(str) {
+        var spacePosition = str.indexOf(' ');
+        if (spacePosition === -1) {
+            return str;
+        }
 
-  ga('create', 'UA-93672618-1', 'auto');
-  ga('send', 'pageview');
+        return str.substr(0, spacePosition);
+    }
+</script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-93672618-1', 'auto');
+    ga('send', 'pageview');
 
 </script>
 
